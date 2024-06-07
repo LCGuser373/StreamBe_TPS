@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#contenedor {
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+#salchicha {
+    background-color: rgb(169, 27, 27);
+    border-radius: 40px;
+    width: 750px;
+    height: 60px;
+}
+.Pan {
+    background-color: rgb(240, 161, 64);
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 700px;
+    height: 60px;
+}
+#Pan1 {
+    border-top: 30%;
+}
+#Pan2 {
+    border-bottom: 30%;
+}
