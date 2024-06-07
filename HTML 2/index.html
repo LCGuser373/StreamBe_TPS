@@ -1,0 +1,107 @@
+<!--con el doctype defino el tipo de archivo que es el documento donde uso html y css-->
+<!DOCTYPE html>
+<html>
+<head>
+<!--con el title le doy un nombre a la pagina para que sea facil identificar en que seccion se encuentra-->
+    <title>Grand Coffe</title>
+<!--con el style puedo aplicar algunas funciones css a mi codigo llamando a las etiquetas a las que les asigne un id o class-->
+    <style>
+        #titulo {
+            background-color: rgb(255, 211, 145);
+            border: 1px solid black;
+            text-align: center;
+            margin: 0;
+        }
+        .menu {
+            background-color: rgb(179, 179, 179);
+            border: 1px solid black;
+        }
+        .enlaces li {
+            display: inline;
+            margin-right: 10px;
+        }
+        #datos {
+            background-color: rgb(255, 211, 145);
+            border: 1px solid black;
+            margin: auto;
+        }
+        #cuerpo {
+            background-color: bisque;
+            padding: 30px;
+        }
+        .producto {
+            background-color: beige;
+            border: 1px solid black;
+            width: 240px;
+            height: 300px;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            text-align: left;
+        }
+        .img {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<!--el body es la parte visible de la pagina donde cada etiqueta que ponga sera visible para el usuario-->
+<body>
+    <!--el header es la parte superior de la pagina donde coloque el titulo, una descripcion y una barra de navegacion donde el usuario puede acceder a otras secciones de la pagina donde se encuentra otra informacion  -->
+    <header id="titulo">
+            <h1>Grand Coffe</h1>
+            <h3>Cafeteria</h3>
+            <p>Nos sentimos orgullosos de que Grand Coffe: Cafeteria, este abierto al publico, sirviendo Cafe de primera calidad y ofreciendo desayunos <br> de primera a precios accesibles, Vea a continuacion nuestra variedad de productos:</p>
+            <!--use un div para crear un espacio aparte para la barra de navegacion donde puedo especificar algun cambio visual con el css, usando las listas para facilitar el orden de colocacion de links a otras secciones y dandole un color de fondo un orden en horizontal para que sea visualmente mejor-->
+            <div class="menu">
+                <nav>
+                    <!--aqui estarian los enlaces a los otros archivos html-->
+                    <ul class="enlaces">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html">servicios</a></li>
+                        <li><a href="nosotros.html">sobre nosotros</a></li>
+                        <li><a href="contacto.html">Contactenos</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+<!--en el section me enfoco en el contenido principal de mi pagina, dando un resumen del contenido de la pagina en general, parrafos, titulos y imagenes de los productos ofrecidos-->
+    <section id="cuerpo">
+        <p>     Grand Coffe: Cafeteria es una empresa nacional que cuenta con varias sucursales por toda
+la argentina, nos especializamos en la venta de desayunos clasicos con precios accesibles para el publico general.</p>
+        <h1><strong>Nuestros productos destacados:</strong></h1>
+        <!--utilice un center para que el contenido especifico de ventas se acomode en base a la pagina y quede bien-->
+        <center>
+            <!--con el article defino la parte especifica de la pagina donde coloco los divs que se convierten en los contenedores de los productos de la pagina-->
+            <article>
+                <!--personalmente puede que hayan formas o metodos mas avanzados o mejores visualmente para colocar productos, pero me siento comodo usando divs, creo que tengo una rara obsesion con jugar con los divs jsjs-->
+                <div class="producto">
+                    <img class="img" src="https://th.bing.com/th/id/OIP.X9oLlQg7ITv-6XjtoFVnCQHaE8?rs=1&pid=ImgDetMain" height="180px" width="230px">
+                    <h3>Cafe capuccino</h3>
+                    <h4>$1.800</h4>
+                </div>
+
+                <div class="producto">
+                    <img class="img" src="https://th.bing.com/th/id/OIP.4uQgGStSsrsqxLl_xdwGxwHaEK?rs=1&pid=ImgDetMain" height="180px" width="230px">
+                    <h3>cafe americano</h3>
+                    <h4>$1.500</h4>
+                </div>
+
+                <div class="producto">
+                    <img class="img" src="https://th.bing.com/th/id/R.40e66daef7c39df140f33e05663f643b?rik=KihIHmZNtUL1Rg&pid=ImgRaw&r=0" height="180px" width="230px">
+                    <h3>Cafe Latte</h3>
+                    <h4>$2.000</h4>
+                </div>
+            </article>
+        </center>
+        <!--con la etiqueta strong puedo destacar algun texto poniendolo en negrita, basicamente para que se entienda que es mas importante-->
+        <p>¿Quiere comunicarse con nosotros? entonces vaya a la seccion
+<strong>Contactenos</strong> y envienos su mensaje :D, o si busca saber mas de nuestra empresa vease tambien en la seccion <strong>nosotros</strong> al inicio de la pagina</p>
+    </section>
+    <!--en el footer esta el contenido final de la pagina donde coloque el año, y un texto de derechos de autor-->
+    <footer id="datos">
+        <h3>Grand Coffe: Cafeteria</h3>
+        <p>2024  Derechos reservados de la pagina a <strong>Grand Coffe: Cafeteria</strong> </p>
+    </footer>
+</body>
+</html>
+<!--saludos, se que no es necesario usar el css pero como ya tengo un conocimiento previo de css y html me puse quisquilloso con la creacion de la pagina personalizandola bastante, ya que visualmente sin css se ve bastante feo sinceramente :/, espero no haya problema, un saludo de corazon a quien lea esto :D-->

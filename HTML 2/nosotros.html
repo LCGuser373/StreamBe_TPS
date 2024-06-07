@@ -1,0 +1,74 @@
+<!--con el doctype defino el tipo de archivo que es el documento donde uso html y css-->
+<!DOCTYPE html>
+<html>
+<head>
+    <!--con el title le doy un nombre a la pagina para que sea facil identificar en que seccion se encuentra-->
+    <title>Grand Coffe/ nosotros</title>
+    <!--con el style puedo aplicar algunas funciones css a mi codigo llamando a las etiquetas a las que les asigne un id o class-->
+    <style>
+        #titulo {
+            background-color: rgb(255, 211, 145);
+            border: 1px solid black;
+            text-align: center;
+            margin: 0;
+        }
+        .menu {
+            background-color: rgb(179, 179, 179);
+            border: 1px solid black;
+        }
+        .enlaces li {
+            display: inline;
+            margin-right: 10px;
+        }
+        #datos {
+            background-color: rgb(255, 211, 145);
+            border: 1px solid black;
+            text-align: center;
+            margin: 0;
+        }
+        #cuerpo {
+            background-color: bisque;
+            padding: 30px;
+        }
+    </style>
+</head>
+<!--el body es la parte visible de la pagina donde cada etiqueta que ponga sera visible para el usuario-->
+<body>
+    <!--el header es la parte superior de la pagina donde coloque el titulo, una descripcion y una barra de navegacion donde el usuario puede acceder a otras secciones de la pagina donde se encuentra otra informacion  -->
+    <header id="titulo">
+        <h1>Sobre Nosotros</h1>
+        <h3>Grand Coffe</h3>
+        <!--use un div para crear un espacio aparte para la barra de navegacion donde puedo especificar algun cambio visual con el css, usando las listas para facilitar el orden de colocacion de links a otras secciones y dandole un color de fondo un orden en horizontal para que sea visualmente mejor-->
+        <div class="menu">
+            <nav>
+                <!--aqui estarian los enlaces a los otros archivos html-->
+                <ul class="enlaces">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">servicios</a></li>
+                    <li><a href="nosotros.html">sobre nosotros</a></li>
+                    <li><a href="contacto.html">Contactenos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--en el section, etiqueta central de la pagina, me enfoco en hablar sobre el contenido de la pagina y la empresa que se creo , usando parrafos y titulos-->
+    <section id="cuerpo">
+        <h2>Grand Coffe: Cafeteria</h2>
+        <p>La cafeteria grand coffe fue fundada en el año 2024 mes de mayo dia 18 por carrasco lautaro gabriel, comenzo como un pequeño emprendimiento escolar
+vendiendo vasos de cafe a alumnos y profesores de una secundaria tecnica, con los ingresos que se fueron ganando este emprendimiento fue creciendo y ofreciendo cada vez mas variedad de productos y obteniendo
+mas clientes, luego el emprendimiento continuo con un pequeño local en la ciudad de la plata, buenos aires, argentina, llamandose Grand Coffe: cafeteria volviendose mas popular y expandiendose con mas locales.</p>
+        <br>
+        <br>
+        <h3>¿Cual es nuestro Objetivo?</h3>
+        <p>Nuestra empresa <strong>Grand Coffe: cafeteria</strong> empezo como un pequeño emprendimiento escolar y fue escalando,
+adquiriendo mas fama, expandiendose por otras ciudades, volviendose una empresa cada vez mas importante y reconocida,
+pero siempre seguimos fieles a un ideal, servir cafe de gran calidad y generar una sonrisa al cliente </p>
+    </section>
+<!--en el footer esta el contenido final de la pagina donde coloque el año, y un texto de derechos de autor-->
+    <footer id="datos">
+        <h3>Grand Coffe: Cafeteria</h3>
+        <p>2024  Derechos reservados de la pagina a <strong>Grand Coffe: Cafeteria</strong> </p>
+
+    </footer>
+</body>
+</html>
