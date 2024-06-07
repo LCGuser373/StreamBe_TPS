@@ -1,0 +1,52 @@
+#Vader {
+    font-style: italic;
+    font-size: 40px;
+}
+#luke {
+    font-style: italic;
+    font-size: 40px;
+}
+img {
+    border: 2px solid black;
+}
+header {
+    text-align: center;
+    border: 2px solid yellow;
+    background-color: black;
+    color: white;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.imperio {
+    font-size: 30px;
+    background-color: red;
+    border: 2px yellow;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 30px;
+}
+.rebeldes {
+    font-size: 30px;
+    background-color: blue;
+    border: 2px yellow;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 30px;
+}
+.apoyo {
+    text-align: center;
+    background-color: darkgray;
+    border: 2px solid black;
+    margin: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.nave {
+    text-transform: uppercase;
+    margin: 30px;
+}
+h1 {
+    text-align: center;
+}
