@@ -1,0 +1,17 @@
+h1 {
+    color: rgb(255, 0, 0);
+}
+h2 {
+    color: rgb(255, 166, 0);
+}
+h3 {
+    color:#f6ff00
+}
+p {
+    color:rgb(0, 2, 139);
+    background-color: rgb(150, 255, 150);
+}
+img {
+    height: 250px;
+    width: 250px;
+}
