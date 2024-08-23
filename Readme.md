@@ -8,4 +8,4 @@
 5. Trabajo practico 5: En el TP 5 se utiliza HTMl pero centrandose mas en el CSS, Con cuadros de texto e imagenes, modificando su posicion y tamaños.
 6. Trabajo practico 6: En el TP 6 se utiliza HTML pero centrandose mas en el CSS, usando textos pero mas que nada imagenes, modificando sus tamaños para poder ordenarlos en un cuadro de imagenes correctamente ordenados.
 7. Trabajo practico 7:
-8. Trabajo practico 8:
+8. Trabajo practico 8: En el TP 8 se utiliza HTML y Principalmente JavaScript.
