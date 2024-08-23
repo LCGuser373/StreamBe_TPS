@@ -5,7 +5,7 @@
 2. Trabajo practico 2: En el TP 2 se utilizan varios HTML con un poco de CSS, mostrando una pagina web con diferentes secciones, con fotos, textos y un formulario.
 3. Trabajo practico 3: En el tp 3 se utilizan varios HTML y CSS, se muestran diferentes cuadros de texto con fotos, se editan textos y colores.
 4. Trabajo practico 4: En el TP 4 se utilizan varios HTML con CSS, mostrando cuadros con fotos, textos y botones, donde se elige una opcion que te lleva a otro cuadro.
-5. Trabajo practico 5:
+5. Trabajo practico 5: En el TP 5 se utiliza HTMl pero centrandose mas en el CSS, Con cuadros de texto e imagenes, modificando su posicion y tamaños.
 6. Trabajo practico 6:
 7. Trabajo practico 7:
 8. Trabajo practico 8:
