@@ -7,5 +7,5 @@
 4. Trabajo practico 4: En el TP 4 se utilizan varios HTML con CSS, mostrando cuadros con fotos, textos y botones, donde se elige una opcion que te lleva a otro cuadro.
 5. Trabajo practico 5: En el TP 5 se utiliza HTMl pero centrandose mas en el CSS, Con cuadros de texto e imagenes, modificando su posicion y tamaños.
 6. Trabajo practico 6: En el TP 6 se utiliza HTML pero centrandose mas en el CSS, usando textos pero mas que nada imagenes, modificando sus tamaños para poder ordenarlos en un cuadro de imagenes correctamente ordenados.
-7. Trabajo practico 7:
+7. Trabajo practico 7: En el Tp 7 se utiliza HTML y CSS para crear un portfolio del usuario con diferentes secciones de texto y fotos.
 8. Trabajo practico 8: En el TP 8 se utiliza HTML y Principalmente JavaScript.
