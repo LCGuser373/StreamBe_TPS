@@ -12,7 +12,7 @@
 9. Trabajo practico 9:
 10.Trabajo practico 10: En el Tp 10 se utiliza un HTML pero principalmente nos enfocamos en usar javascript resolviendo diferentes consignas que se nos han dado.
 11.Trabajo practico 11: En el tp 11 se Se utilizan HTML, CSS y JavaScript para crear diferentes paaginas donde se encuentran los codigos usados para responder a diferentes consignas asignadas.
-12.Trabajo practico 12: 
+12.Trabajo practico 12: En el Tp 12 se utilizan HTML, CSS y JavaScript para crear una pagina con un minijuego de velocidad de escritura.
 13.Trabajo practico 13: 
 14.Trabajo practico 14: 
 15.Trabajo practico 15:
