@@ -17,9 +17,9 @@
    * Un contador que se incremente automáticamente cada segundo.
    * Calculadora de Cuadrados: Calculadora que muestra el cuadrado de un número ingresado.
    * Precio Total de Productos: Aplicación que calcula el precio total de una lista de productos.
-14.Trabajo Práctico 14:
+14. Trabajo Práctico 14:
 Aplicación web en React que permite ver una lista de personajes de Rick and Morty y mostrar sus detalles al seleccionar uno.
-15.Trabajo Práctico 15:
+15. Trabajo Práctico 15:
 React para crear una plantilla de un E-commerce.
-16.Trabajo Práctico 16:
+16. Trabajo Práctico 16:
 React para crear un carrito de compras que se actualiza según los productos seleccionados, con un botón que cambia de modo día a modo noche.
